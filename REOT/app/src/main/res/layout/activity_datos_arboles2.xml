@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado Sanitario"
+            app:met_floatingLabel="normal"
+            android:textColorHint="#EEEEEE"
+            />
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Inclinacion"
+            app:met_floatingLabel="normal"
+            android:textColorHint="#EEEEEE"
+            app:met_floatingLabelTextSize="16sp"
+            app:met_primaryColor="#eeeeee"
+            android:textSize="16dp" />
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ahuecamiento"
+            app:met_floatingLabel="normal"
+            android:textColorHint="#dd1d1d"
+            app:met_floatingLabelTextSize="16sp"
+            app:met_primaryColor="#eeeeee"
+            />
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Altura INT Calle"
+            app:met_floatingLabel="normal"
+            android:textColorHint="#eeEEEE"
+            app:met_floatingLabelTextSize="16sp"
+            app:met_primaryColor="#eeeeee"
+            />
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Altura INT Luminarias"
+            app:met_floatingLabel="normal"
+            android:textColorHint="#eeEEEE"
+            app:met_floatingLabelTextSize="16sp"
+            app:met_primaryColor="#eeeeee"
+            />
+
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Daño a muros"
+            app:met_floatingLabel="normal"
+            android:textColorHint="#eeEEEE"
+            app:met_floatingLabelTextSize="16sp"
+            app:met_primaryColor="#eeeeee"
+            />
+
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Daño a veredas"
+            app:met_floatingLabel="normal"
+            android:textColorHint="#eeEEEE"
+            app:met_floatingLabelTextSize="16sp"
+            app:met_primaryColor="#eeeeee"
+            />
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spinner8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Podas anteriores"
+            app:met_floatingLabel="normal"
+            android:textColorHint="#eeEEEE"
+            app:met_floatingLabelTextSize="16sp"
+            app:met_primaryColor="#eeeeee"
+            />
+
+
+
+
+
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_arboles2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="...carga de arbol..."/>
+
+        <TextView android:id="@+id/link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Volver al menu anterior"
+            android:gravity="center"
+            android:textSize="16dip"/>
+
+    </LinearLayout>
+</ScrollView>
